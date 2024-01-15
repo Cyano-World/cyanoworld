@@ -1,0 +1,17 @@
+.footer {
+    //  display: flex;
+    background: linear-gradient(to right, #c5a2ff, #79fffd);
+    //  animation: fadeOutAnimation 2s ease;
+}
+
+@keyframes fadeOutAnimation {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+* {
+    color: black;
+}
