@@ -1,0 +1,48 @@
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.8em;
+    color: #ffffff;
+}
+.navbar-nav {
+    a {
+        font-size: 1.2em;
+        text-decoration: none;
+        font-weight: normal;
+        color: #eaeaea;
+    }
+    a:hover,
+    a:active {
+        font-weight: bold;
+        color: #ffffff;
+    }
+}
+
+.header {
+    //  display: flex;
+    background: linear-gradient(to right, #4d002e, #f7ff7b);
+    //  animation: fadeOutAnimation 2s ease;
+}
+
+@keyframes fadeOutAnimation {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.circular-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0px 20px 0px 10px;
+}
+
+.circular-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
