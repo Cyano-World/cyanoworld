@@ -7,10 +7,10 @@ import { Component } from '@angular/core';
 })
 export class DashboardComponent {
   images: string[] = [
-    '../../../../assets/img/CyanoGamer.png',
-    '../../../../assets/img/CyanoClash.png',
-    '../../../../assets/img/CyanoRoyal.png',
-    '../../../../assets/img/CyanoMobileGame.png'
+    './assets/img/CyanoGamer.png',
+    './assets/img/CyanoClash.png',
+    './assets/img/CyanoRoyal.png',
+    './assets/img/CyanoMobileGame.png'
   ];
   ngOnInit(): void {
     // Set an interval to change the active slide every 2 seconds
